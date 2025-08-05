@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio - Kenya</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primary" href="#">Pauline Kungu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+<section id="home" class="hero-section min-vh-100 d-flex align-items-center position-relative bg-primary">
+    <div class="container position-relative z-index-1">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-white mb-5 mb-lg-0">
+                <h1 class="display-4 fw-bold mb-4">
+                    Data Science<br>
+                    <span class="text-blue-200">Portfolio</span>
+                </h1>
+                <p class="fs-5 mb-5 text-blue-100">
+                    Aspiring Data Analyst & Scientist based in Kenya, passionate about transforming data into actionable insights. My goal is to secure a data-related position by December 2025.
+                </p>
+                <div class="d-flex flex-wrap gap-3 mb-5">
+                    <a href="#projects" class="btn btn-light btn-lg rounded-button fw-semibold px-4 py-3">View Projects</a>
+                    <a href="#" class="btn btn-outline-light btn-lg rounded-button fw-semibold px-4 py-3">Download Resume</a>
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="btn btn-social rounded-button"><i class="fab fa-github"></i></a>
+                    <a href="#" class="btn btn-social rounded-button"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="btn btn-social rounded-button"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="position-relative">
+                    <div class="profile-image-medium mx-auto rounded-circle overflow-hidden border border-5 border-white-20">
+                        <img src="pauline.jpeg" 
+                             alt="Professional Portrait" class="w-100 h-100 object-fit-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute bottom-0 start-50 translate-middle-x text-white animate-bounce">
+        <i class="fas fa-arrow-down fs-3"></i>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20data%20scientist%20working%20with%20multiple%20monitors%20displaying%20data%20analytics%20dashboards%2C%20charts%20and%20graphs%2C%20modern%20office%20environment%20in%20Kenya%2C%20focused%20professional%20at%20work%2C%20clean%20workspace%20with%20laptops%20and%20data%20visualization%20tools&width=600&height=400&seq=about-001&orientation=landscape" 
+                         alt="Data Science Work" class="img-fluid rounded-button">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold text-dark mb-4">About Me</h2>
+                    <p class="fs-5 text-gray-600 mb-5">
+                        I'm a passionate data enthusiast from Kenya with a strong foundation in statistical analysis, machine learning, and data visualization. Currently building my portfolio while pursuing opportunities in the data science field.
+                    </p>
+                    
+                    <div class="mb-5">
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">Python & Data Analysis</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar skill-bar" role="progressbar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">Machine Learning</span>
+                                <span class="text-gray-600">85%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar skill-bar" role="progressbar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">SQL & Databases</span>
+                                <span class="text-gray-600">80%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar skill-bar" role="progressbar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">Data Visualization</span>
+                                <span class="text-gray-600">88%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar skill-bar" role="progressbar" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row g-3">
+                        <div class="col-3 text-center">
+                            <div class="skill-icon rounded-button mx-auto mb-2">
+                                <i class="fas fa-code fs-4 text-primary"></i>
+                            </div>
+                            <span class="text-sm fw-medium">Python</span>
+                        </div>
+                        <div class="col-3 text-center">
+                            <div class="skill-icon rounded-button mx-auto mb-2">
+                                <i class="fas fa-database fs-4 text-primary"></i>
+                            </div>
+                            <span class="text-sm fw-medium">SQL</span>
+                        </div>
+                        <div class="col-3 text-center">
+                            <div class="skill-icon rounded-button mx-auto mb-2">
+                                <i class="fas fa-chart-bar fs-4 text-primary"></i>
+                            </div>
+                            <span class="text-sm fw-medium">Tableau</span>
+                        </div>
+                        <div class="col-3 text-center">
+                            <div class="skill-icon rounded-button mx-auto mb-2">
+                                <i class="fas fa-brain fs-4 text-primary"></i>
+                            </div>
+                            <span class="text-sm fw-medium">ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Featured Projects</h2>
+                <p class="fs-5 text-gray-600 mx-auto" style="max-width: 800px;">
+                    Explore my portfolio of data science projects showcasing various techniques from exploratory data analysis to machine learning and deep learning applications.
+                </p>
+            </div>
+            
+            <div class="d-flex justify-content-center mb-5">
+                <div class="btn-group flex-wrap" role="group">
+                    <button type="button" class="btn btn-primary filter-btn active" data-filter="all">All Projects</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="ml">Machine Learning</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="eda">Data Analysis</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="nlp">NLP</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="dashboard">Dashboards</button>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="eda">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Kenya%20demographic%20data%20visualization%20dashboard%20with%20population%20charts%2C%20age%20distribution%20graphs%2C%20and%20geographic%20maps%2C%20colorful%20data%20analytics%20interface%2C%20modern%20dashboard%20design%20with%20African%20demographic%20statistics%2C%20clean%20data%20visualization&width=400&height=300&seq=project-001&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Kenya Demographics EDA">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Kenya Demographics Analysis</h3>
+                            <p class="text-gray-600 mb-4">Comprehensive exploratory data analysis of Kenya's demographic trends, population distribution, and socioeconomic indicators using census data.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Python</span>
+                                <span class="badge bg-green-100 text-green-800 rounded-button">Pandas</span>
+                                <span class="badge bg-purple-100 text-purple-800 rounded-button">Matplotlib</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="ml">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Machine%20learning%20loan%20prediction%20model%20interface%20with%20risk%20assessment%20charts%2C%20credit%20scoring%20visualization%2C%20financial%20data%20analytics%20dashboard%2C%20predictive%20modeling%20interface%20with%20African%20banking%20context%2C%20professional%20fintech%20visualization&width=400&height=300&seq=project-002&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Loan Default Prediction">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Loan Default Prediction Model</h3>
+                            <p class="text-gray-600 mb-4">Machine learning model to predict loan defaults using customer financial data, achieving 87% accuracy with ensemble methods.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Python</span>
+                                <span class="badge bg-red-100 text-red-800 rounded-button">Scikit-learn</span>
+                                <span class="badge bg-yellow-100 text-yellow-800 rounded-button">XGBoost</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="dashboard">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Kenya%20fuel%20price%20tracking%20dashboard%20with%20line%20charts%20showing%20price%20trends%20over%20time%2C%20interactive%20web%20dashboard%20interface%2C%20real-time%20price%20monitoring%20system%2C%20clean%20data%20visualization%20with%20Kenyan%20fuel%20market%20data%2C%20modern%20analytics%20interface&width=400&height=300&seq=project-003&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Fuel Price Dashboard">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Kenya Fuel Price Tracker</h3>
+                            <p class="text-gray-600 mb-4">Web scraping and dashboard project tracking fuel price changes across Kenya with automated data collection and visualization.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Python</span>
+                                <span class="badge bg-orange-100 text-orange-800 rounded-button">BeautifulSoup</span>
+                                <span class="badge bg-green-100 text-green-800 rounded-button">Dash</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="nlp">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Social%20media%20sentiment%20analysis%20visualization%20with%20word%20clouds%2C%20emotion%20charts%2C%20and%20Twitter%20data%20analytics%20interface%2C%20NLP%20processing%20dashboard%20showing%20positive%20negative%20sentiment%20trends%2C%20modern%20text%20analytics%20visualization&width=400&height=300&seq=project-004&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Twitter Sentiment Analysis">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Kenya Twitter Sentiment Analysis</h3>
+                            <p class="text-gray-600 mb-4">Natural language processing project analyzing sentiment trends in Kenyan Twitter discussions on political and social topics.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Python</span>
+                                <span class="badge bg-purple-100 text-purple-800 rounded-button">NLTK</span>
+                                <span class="badge bg-pink-100 text-pink-800 rounded-button">TextBlob</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="ml">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Medical%20image%20classification%20deep%20learning%20interface%20showing%20X-ray%20or%20medical%20scan%20analysis%2C%20AI%20diagnostic%20tool%20visualization%2C%20healthcare%20machine%20learning%20application%2C%20medical%20data%20analysis%20dashboard%20with%20diagnostic%20predictions&width=400&height=300&seq=project-005&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Disease Detection ML">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Medical Image Classification</h3>
+                            <p class="text-gray-600 mb-4">Deep learning model for medical image classification to assist in disease detection using convolutional neural networks.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Python</span>
+                                <span class="badge bg-red-100 text-red-800 rounded-button">TensorFlow</span>
+                                <span class="badge bg-green-100 text-green-800 rounded-button">Keras</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4 project-card" data-category="dashboard">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=SQL%20database%20dashboard%20with%20interactive%20charts%20showing%20Airbnb%20booking%20analytics%2C%20property%20rental%20data%20visualization%2C%20business%20intelligence%20dashboard%20with%20booking%20trends%20and%20revenue%20metrics%2C%20modern%20data%20analytics%20interface&width=400&height=300&seq=project-006&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Airbnb SQL Dashboard">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Airbnb Analytics Dashboard</h3>
+                            <p class="text-gray-600 mb-4">Interactive SQL-based dashboard analyzing Airbnb booking patterns, pricing trends, and host performance metrics.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">SQL</span>
+                                <span class="badge bg-orange-100 text-orange-800 rounded-button">PostgreSQL</span>
+                                <span class="badge bg-purple-100 text-purple-800 rounded-button">Tableau</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-primary btn-sm flex-grow-1 rounded-button">View Project</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Latest Articles</h2>
+                <p class="fs-5 text-gray-600 mx-auto" style="max-width: 800px;">
+                    Sharing insights, tutorials, and thoughts on data science, machine learning, and the African tech ecosystem.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 bg-light blog-card">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Machine%20learning%20tutorial%20illustration%20with%20Python%20code%20snippets%2C%20data%20science%20education%20content%2C%20beginner-friendly%20ML%20concepts%20visualization%2C%20coding%20tutorial%20interface%20with%20African%20context%2C%20educational%20technology%20content&width=400&height=300&seq=blog-001&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="ML Tutorial">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <span class="badge bg-blue-100 text-blue-800 rounded-button">Machine Learning</span>
+                                <span class="text-sm text-gray-500">5 min read</span>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Getting Started with Machine Learning in Python</h3>
+                            <p class="text-gray-600 mb-4">A comprehensive guide for beginners to start their machine learning journey using Python and popular libraries like scikit-learn.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-sm text-gray-500">Dec 15, 2024</span>
+                                <a href="#" class="text-primary fw-semibold">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 bg-light blog-card">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=Data%20visualization%20best%20practices%20illustration%20with%20charts%20and%20graphs%20examples%2C%20data%20storytelling%20concepts%2C%20effective%20data%20presentation%20techniques%2C%20professional%20analytics%20visualization%20guide%2C%20clean%20educational%20content&width=400&height=300&seq=blog-002&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Data Visualization">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <span class="badge bg-green-100 text-green-800 rounded-button">Data Visualization</span>
+                                <span class="text-sm text-gray-500">7 min read</span>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Data Visualization Best Practices</h3>
+                            <p class="text-gray-600 mb-4">Learn how to create compelling and effective data visualizations that tell a story and drive decision-making.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-sm text-gray-500">Dec 10, 2024</span>
+                                <a href="#" class="text-primary fw-semibold">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="card h-100 border-0 bg-light blog-card">
+                        <div class="card-img-top overflow-hidden" style="height: 200px;">
+                            <img src="https://readdy.ai/api/search-image?query=African%20tech%20ecosystem%20illustration%20with%20Kenya%20technology%20landscape%2C%20data%20science%20opportunities%20in%20Africa%2C%20tech%20career%20development%20in%20Kenya%2C%20professional%20growth%20in%20African%20tech%20industry%2C%20modern%20technology%20workspace&width=400&height=300&seq=blog-003&orientation=landscape" 
+                                 class="img-fluid w-100 h-100 object-fit-cover" alt="Kenya Tech Scene">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <span class="badge bg-purple-100 text-purple-800 rounded-button">Career</span>
+                                <span class="text-sm text-gray-500">6 min read</span>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Data Science Opportunities in Kenya</h3>
+                            <p class="text-gray-600 mb-4">Exploring the growing data science landscape in Kenya and opportunities for aspiring data professionals.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-sm text-gray-500">Dec 5, 2024</span>
+                                <a href="#" class="text-primary fw-semibold">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary btn-lg rounded-button px-5 py-3">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Get In Touch</h2>
+                <p class="fs-5 text-gray-600 mx-auto" style="max-width: 800px;">
+                    I'm always open to discussing data science opportunities, collaborations, or just having a conversation about the field.
+                </p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h3 class="h2 fw-bold text-dark mb-4">Let's Connect</h3>
+                    <div class="space-y-4">
+                        <div class="d-flex align-items-center gap-4">
+                            <div class="contact-icon rounded-circle">
+                                <i class="fas fa-envelope fs-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-semibold mb-1">Email</h4>
+                                <p class="text-gray-600 mb-0">datascience.kenya@email.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-4">
+                            <div class="contact-icon rounded-circle">
+                                <i class="fas fa-map-marker-alt fs-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-semibold mb-1">Location</h4>
+                                <p class="text-gray-600 mb-0">Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-4">
+                            <div class="contact-icon rounded-circle">
+                                <i class="fas fa-phone-alt fs-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-semibold mb-1">Phone</h4>
+                                <p class="text-gray-600 mb-0">+254 700 123 456</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h4 class="fw-semibold mb-3">Follow Me</h4>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="btn btn-social rounded-circle"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn btn-social rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="btn btn-social rounded-circle"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-5">
+                            <form id="contactForm">
+                                <div class="mb-4">
+                                    <label for="name" class="form-label fw-semibold">Name</label>
+                                    <input type="text" class="form-control rounded-button py-3" id="name" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="form-label fw-semibold">Email</label>
+                                    <input type="email" class="form-control rounded-button py-3" id="email" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="subject" class="form-label fw-semibold">Subject</label>
+                                    <input type="text" class="form-control rounded-button py-3" id="subject" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="form-label fw-semibold">Message</label>
+                                    <textarea class="form-control rounded-button" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 rounded-button py-3">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-lg-3">
+                    <h3 class="h4 fw-bold mb-4">DataKenya</h3>
+                    <p class="text-gray-400 mb-4">Aspiring Data Scientist from Kenya, passionate about transforming data into insights.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-social-sm rounded-circle"><i class="fab fa-github"></i></a>
+                        <a href="#" class="btn btn-social-sm rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-social-sm rounded-circle"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="h5 fw-semibold mb-4">Quick Links</h4>
+                    <ul class="list-unstyled text-gray-400">
+                        <li class="mb-2"><a href="#home" class="text-gray-400 hover-white">Home</a></li>
+                        <li class="mb-2"><a href="#projects" class="text-gray-400 hover-white">Projects</a></li>
+                        <li class="mb-2"><a href="#blog" class="text-gray-400 hover-white">Blog</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-gray-400 hover-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="h5 fw-semibold mb-4">Skills</h4>
+                    <ul class="list-unstyled text-gray-400">
+                        <li class="mb-2">Python & Data Analysis</li>
+                        <li class="mb-2">Machine Learning</li>
+                        <li class="mb-2">SQL & Databases</li>
+                        <li class="mb-2">Data Visualization</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="h5 fw-semibold mb-4">Contact Info</h4>
+                    <ul class="list-unstyled text-gray-400">
+                        <li class="mb-2">Nairobi, Kenya</li>
+                        <li class="mb-2">datascience.kenya@email.com</li>
+                        <li class="mb-2">+254 700 123 456</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 border-gray-800">
+            <div class="text-center text-gray-400">
+                <p class="mb-0">&copy; 2024 DataKenya Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4" style="width: 50px; height: 50px; display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
